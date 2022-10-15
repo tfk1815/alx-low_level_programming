@@ -12,7 +12,7 @@ int main(void)
 
 	for (num1 = '0'; num1 <= '9'; num1++)
 	{
-		for(j = num2; j <= '9'; j++)
+		for (j = num2; j <= '9'; j++)
 		{
 			if (num1 != j)
 			{
@@ -29,7 +29,7 @@ int main(void)
 			}
 			else
 			{
-				putchar(' ');
+				putchar(',');
 				putchar(' ');
 			}
 		}
