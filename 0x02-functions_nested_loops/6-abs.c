@@ -6,7 +6,6 @@
  *Return:returns the abs value.
  *
  */
-
 int _abs(int a)
 {
 	int k = a;
@@ -19,4 +18,3 @@ int _abs(int a)
 	absvalue = k;
 	return (absvalue);
 }
-
