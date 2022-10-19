@@ -6,15 +6,15 @@
  *Return:returns the abs value.
  *
  */
+
 int _abs(int a)
 {
-	int k = a;
-	int absvalue;
-
-	if (k < 0)
+	if (a >= 0)
 	{
-		k = k * (-1);
+		return (a);
 	}
-	absvalue = k;
-	return (absvalue);
+	else
+	{
+		return (-a);
+	}
 }
