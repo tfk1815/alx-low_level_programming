@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - prints Buzz each numbers of 3 and 5.
+ * main - prints fizzbuzz
  * Return: Always 0.
  */
 int main(void)
 {
 	int n;
 
-	for (n = 1; n <= 100; n++)
+	printf("1");
+	for (n = 2; n <= 100; n++)
 	{
 		printf(" ");
 		if (n % 3 == 0)
